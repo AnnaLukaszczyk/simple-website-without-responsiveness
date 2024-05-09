@@ -1,13 +1,3 @@
-* {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-}
-
-body {
-	font-family: "Raleway", sans-serif;
-}
-
 .navigation {
 	height: 50px;
 	background-color: #333;
@@ -26,11 +16,10 @@ body {
 	color: #fff;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-weight: bold;
 	font-size: 16px;
 	letter-spacing: 2px;
 	cursor: pointer;
-	transition: color .3s;
+	transition: color 0.3s;
 }
 
 .hyperlink:hover {
