@@ -5,5 +5,34 @@
 }
 
 body {
-    font-family: "Raleway", sans-serif;
+	font-family: "Raleway", sans-serif;
+}
+
+.navigation {
+	height: 50px;
+	background-color: #333;
+	text-align: center;
+	line-height: 50px;
+	font-size: 0;
+}
+
+.navigation-item {
+	display: inline-block;
+}
+
+.hyperlink {
+	padding: 10px 30px;
+	margin: 0 30px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 16px;
+	letter-spacing: 2px;
+	cursor: pointer;
+	transition: color .3s;
+}
+
+.hyperlink:hover {
+	color: #0086f3;
 }
