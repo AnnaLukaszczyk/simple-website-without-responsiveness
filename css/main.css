@@ -54,4 +54,35 @@
 .about-us-subtitle {
     margin-bottom: 10px;
     text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.services-list {
+	margin: 0 auto;
+	width: 300px;
+	list-style-position: inside;
+}
+
+.service-item {
+	line-height: 2;
+}
+
+.prices-table {
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+
+.table-cell {
+	padding: 10px 20px;
+	text-align: center;
+	border: 1px solid #808080;
+}
+
+.contact-info {
+	text-align: center;
+	font-size: 24px;
+}
+
+.fa-solid {
+	margin-right: 10px;
 }
