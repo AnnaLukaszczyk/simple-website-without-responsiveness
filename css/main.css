@@ -1,9 +1,57 @@
-* {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+.main {
+	margin: 50px auto;
+	width: 1200px;
 }
 
-body {
-	font-family: "Raleway", sans-serif;
+.main-title {
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.about-us-box {
+	position: relative;
+	height: 300px;
+	margin: 40px 0;
+	background-attachment: fixed;
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+    overflow: hidden;
+}
+
+.top {
+	background-image: url("../img/nature.jpg");
+    background-position: center;
+}
+
+.middle {
+	background-image: url("../img/animals.jpg");
+    background-position: center;
+}
+
+.bottom {
+	background-image: url("../img/work.jpg");
+    background-position: 50% -50%;
+    
+}
+
+.about-us-text {
+    position: absolute;
+    bottom: 20px;
+    padding: 20px 40px;
+    text-align: center;
+    color: #fff;
+}
+
+.about-us-background {
+ position: absolute;
+ bottom: 0;
+ height: 45%;
+ width: 100%;
+ background-color: rgba(0, 0, 0, .8);   
+}
+
+.about-us-subtitle {
+    margin-bottom: 10px;
+    text-transform: uppercase;
 }
